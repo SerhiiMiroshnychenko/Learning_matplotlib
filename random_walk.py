@@ -8,8 +8,8 @@ class RandomWalk:
         """Ініціалізувати атрибути блукання"""
         self.num_points = num_points
         # Всі блукання починаються з (0, 0)
-        self.x_values = 0
-        self.y_values = 0
+        self.x_values = [0]
+        self.y_values = [0]
 
     def fill_walk(self):
         """Обчислити всі точки блукання"""
