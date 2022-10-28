@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 
+plt.style.use('Solarize_Light2')  # Задаємо стиль
+
 # Викликаємо функцію subplots(піддіаграми)
 fig, ax = plt.subplots()  # fig - увесь набір діаграм; ax - репрезентує одну діаграму
 ax.plot(input_values, squares, linewidth=3)  # Метод plot - будує діаграму на основі переданих даних
