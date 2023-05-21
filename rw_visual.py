@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # type: ignore
 
 from random_walk import RandomWalk
 
