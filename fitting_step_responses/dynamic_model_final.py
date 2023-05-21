@@ -9,8 +9,6 @@ data = pd.read_excel('data.xlsx', header=None)
 ts = data.iloc[0].tolist()  # Перший рядок - ts
 ym = data.iloc[1].tolist()  # Другий рядок - ym
 
-
-
 [K, tau, theta, y0], _ = scipy.optimize.curve_fit(fopdt, ts, ym, [2, 4, 1, 10])
 print([K, tau, theta, y0])
 
