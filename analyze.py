@@ -4,10 +4,11 @@ import matplotlib.pyplot as plt
 
 # Підключення до бази даних
 cnx = mysql.connector.connect(
-    host='ваш хост',
-    user='ваш користувач',
-    password='ваш пароль',
-    database='ваша база даних'
+    host='mysql',
+    user='root',
+    port='3306',
+    password='password',
+    database='time_db'
 )
 
 # Створення курсора для виконання запитів
