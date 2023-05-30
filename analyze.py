@@ -1,5 +1,5 @@
 import mysql.connector
-from datetime import datetime, timedelta
+from datetime import datetime
 import matplotlib.pyplot as plt
 
 # Підключення до бази даних
