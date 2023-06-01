@@ -4,6 +4,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 # Підключення до бази даних
+# for example
 cnx = mysql.connector.connect(
     host='mysql',
     user='root',
